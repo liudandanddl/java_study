@@ -1,7 +1,7 @@
 package com.basic.demo;
 
 /**
- * @Description
+ * @Description 判等问题
  * @auther liudandan
  * @create 2019-11-11 3:51 下午
  */

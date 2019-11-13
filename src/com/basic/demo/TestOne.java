@@ -8,6 +8,8 @@ package com.basic.demo;
 public class TestOne {
     public static void main(String[] args)
     {
+        final int num1 = 9;
+
         String s = new String("a string");
         int i=1;
         System.out.println(i);
