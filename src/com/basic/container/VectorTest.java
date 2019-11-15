@@ -56,7 +56,6 @@ public class VectorTest {
             e.nextElement().print();
         }
 
-        
 
 
     }
