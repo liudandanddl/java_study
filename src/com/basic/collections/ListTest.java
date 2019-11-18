@@ -1,6 +1,7 @@
 package com.basic.collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collector;
@@ -18,6 +19,9 @@ public class ListTest {
         int[] t = {1,2,3,4};
         b.addAll(Collections.singleton(t));
 
+        String[] s = {"one", "two", "three"};
+        List l1 = Arrays.asList(s); // 将一个数组转成一个List
+        System.out.println(l1); // [one, two, three]
 
 
     }
