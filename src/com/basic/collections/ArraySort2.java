@@ -5,6 +5,7 @@ import java.util.Comparator;
 
 /**
  * @Description 数组排序：自己编写比较器
+ * Comparator:比较器，拿来比较的
  * @auther liudandan
  * @create 2019-11-18 3:11 下午
  */
@@ -25,6 +26,9 @@ public class ArraySort2 implements Comparator {
         String[] tempS1 = {"dlmr", "asdf", "qwe", "as", "Adf", "Zdf", "zas"};
         Arrays.sort(tempS1, new ArraySort2()); // Adf as asdf dlmr qwe zas Zdf
         ArraySort.print(tempS1);
+        // 使用binarySearch的时候必须使用形同的Comparator.
+        int loc = Arrays.binarySearch(tempS1, "qwe", new ArraySort2());
+        System.out.println(loc);
 
     }
 
